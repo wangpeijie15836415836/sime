@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">	
+    
+	<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!--  -->
+	<link rel="stylesheet" href="css/guanlixitong.css">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<title>学生信息管理系统/sism</title>
+
+</head>
+<body>
+	<!-- 导航条 -->
+	<nav class="navbar navbar-default" role="navigation">
+		<div class="container-fluid">
+			<!--品牌和移动端显示触发按钮 -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#"><img src="images/logo.png" alt="许昌学院" style=""></a>
+			</div>
+	
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse navbar-ex1-collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">信息管理</a></li>
+					<li><a href="#">请假管理</a></li>
+					<li><a href="#">考试</a></li>
+
+				</ul>
+				<form class="navbar-form navbar-left" role="search">
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Search">
+					</div>
+					<button type="submit" class="btn btn-defaul"><span class="glyphicon glyphicon-search"></span>&nbsp;搜索</button>
+						
+					
+
+				</form>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">Link</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span>&nbsp;张三 <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">用户信息</a></li>
+							<li><a href="#">消息</a></li>
+							<li><a href="#"><span class="badge pull-right">4</span></a></li>
+							<li><a href="#">Separated link</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!--  -->
+	<div class="container-fluid">
+		<div class="row">
+			<!-- 子菜单 -->
+			<div class="col-xs-12  col-sm-3 col-lg-2">
+				<div class="list-group">
+				  <a href="#" class="list-group-item active">
+				 	学员管理
+				  </a>
+				  <a href="#" class="list-group-item">教师管理</a>
+				  <a href="#" class="list-group-item">班级管理</a>
+				 </div>
+			</div>
+			<!-- 内容区 -->
+			<div class="col-xs-12 col-sm-9  col-lg-10">
+				<ol class="breadcrumb">
+				  <li><a href="#">信息管理</a></li>
+				  <li><a href="#">学员管理</a></li>
+				</ol>
+				<!-- 内容列表 -->
+
+					<!--  添加table-responsive，使手机也可适应-->
+				<div class="table-responsive">
+					<table class="table table-bordered table-hover">
+					<thead>
+						<tr>
+							<th>#</th>
+							<th>姓名</th>
+							<th>年龄</th>
+							<th>专业</th>
+							<th>电话</th>
+							<th>操作</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>1</td>
+							<td>王培杰</td>
+							<td>22</td>
+							<td>网工</td>
+							<td>1883745225</td>
+							<td>
+								<button class="btn btn-default">更新</button>
+								<button class="btn btn-danger">删除</button>
+							</td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>王培杰</td>
+							<td>22</td>
+							<td>网工</td>
+							<td>1883745225</td>
+							<td>
+								<button class="btn btn-default">更新</button>
+								<button class="btn btn-danger">删除</button>
+							</td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>王培杰</td>
+							<td>22</td>
+							<td>网工</td>
+							<td>1883745225</td>
+							<td>
+								<button class="btn btn-default">更新</button>
+								<button class="btn btn-danger">删除</button>
+							</td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>王培杰</td>
+							<td>22</td>
+							<td>网工</td>
+							<td>1883745225</td>
+							<td>
+								<button class="btn btn-default">更新</button>
+								<button class="btn btn-danger">删除</button>
+							</td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>王培杰</td>
+							<td>22</td>
+							<td>网工</td>
+							<td>1883745225</td>
+							<td>
+								<button class="btn btn-default">更新</button>
+								<button class="btn btn-danger">删除</button>
+							</td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>王培杰</td>
+							<td>22</td>
+							<td>网工</td>
+							<td>1883745225</td>
+							<td>
+								<button class="btn btn-default">更新</button>
+								<button class="btn btn-danger">删除</button>
+							</td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>王培杰</td>
+							<td>22</td>
+							<td>网工</td>
+							<td>1883745225</td>
+							<td>
+								<button class="btn btn-default">更新</button>
+								<button class="btn btn-danger">删除</button>
+							</td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>王培杰</td>
+							<td>22</td>
+							<td>网工</td>
+							<td>1883745225</td>
+							<td>
+								<button class="btn btn-default">更新</button>
+								<button class="btn btn-danger">删除</button>
+							</td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>王培杰</td>
+							<td>22</td>
+							<td>网工</td>
+							<td>1883745225</td>
+							<td>
+								<button class="btn btn-default">更新</button>
+								<button class="btn btn-danger">删除</button>
+							</td>
+						</tr>
+						
+
+					</tbody>
+					</table>
+				</div>
+				
+
+				<div class="clearfix">
+				<button type="button" class="btn btn-default pull-left data-toggle="modal" data-target=""">添加</button>
+
+					<ul class="pagination pull-right">
+						<li><a href="#">&laquo;</a></li>
+						<li><a href="#">1</a></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+						<li><a href="#">5</a></li>
+						<li><a href="#">&raquo;</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<!-- 添加用户的-->
+	<a class="btn btn-primary" data-toggle="modal" href='#modal-id'>添加</a>
+	<div class="modal fade" id="modal-id">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title">添加学员</h4>
+				</div>
+				<div class="modal-body">
+					<form id="f" action="add-student.php" method="POST" >
+						
+							<!-- 学员名字 -->
+						<div class="form-group">
+							<label for="sname">学员姓名</label>
+							<input type="text" class="form-control" id="sname" placeholder="请输入真实姓名">
+						</div>
+							<!-- 学员年龄 -->
+						<div class="form-group">
+							<label for="age">年龄</label>
+							<input type="number" class="form-control" id="age" placeholder="请输入芳龄">
+						</div>
+										
+					</form>
+				</div>
+				<div class="modal-footer">
+					<input type="submit" class="btn btn-default" value="提交"data-dismiss="modal"></button>
+					<button type="button" class="btn btn-primary" data-dismiss="modal">提交</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+	 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	
+</body>
+</html>

@@ -1,0 +1,14 @@
+.navbar-brand{
+	padding: 9px 15px;
+}
+.badge{
+	color: #12788c;
+}
+.list-group-item.active, 
+.list-group-item.active:focus, 
+.list-group-item.active:hover{
+	color:  #12788c
+}
+.pagination{
+	margin: 0;
+}

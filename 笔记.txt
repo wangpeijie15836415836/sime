@@ -1,0 +1,28 @@
+1.需求分析
+2.概要设计
+   -绘制草图
+   -...
+3.详细设计
+	-页面设计
+	-后台接口
+	-前台接口
+4.编码
+5.说明书
+6.维护
+
+
+
+
+
+
+
+
+
+
+*bootstrap 3 snippets
+*bootstrap auto complete
+装插件
+ctrl+shift+p
+输入install package
+
+html中以data-*属性开头的称为h5的自带属性
